@@ -1,12 +1,13 @@
-h1{text-align: center;}
 h2{color:white;}
 form{
   height:92vh;
-  display:flex;
-  align-items: center;
-  justify-content: center;
   flex-direction: column;
   background-color: #ffaa00;
   background-attachment: fixed;
   background-size: cover;
+}
+h1,form{
+  display:flex;
+  align-items: center;
+  justify-content: center;
 }
