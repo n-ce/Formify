@@ -1,11 +1,20 @@
-h2{color:white;}
+h2{
+  color:white;
+  margin:1REM 0 2REM 0;
+  }
 form{
-  height:92vh;
+  height:92VH;
   flex-direction: column;
-  background-color: #ffaa00;
-}
-h1,form{
   display:flex;
   align-items: center;
   justify-content: center;
 }
+h1{
+  background-color:white;
+  color:#ffaaff;
+  height:5VH;
+  text-align:center;
+  margin: 0;
+  padding: 0.25rem 0 0.25REM 0;
+}
+html{background-color:#ffaaff}
