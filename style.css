@@ -3,8 +3,6 @@ form{
   height:92vh;
   flex-direction: column;
   background-color: #ffaa00;
-  background-attachment: fixed;
-  background-size: cover;
 }
 h1,form{
   display:flex;
