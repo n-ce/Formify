@@ -1,5 +1,6 @@
 html{
-  height:97VH;
+  height:100%;
+  overflow: hidden;
   flex-direction: column;
   text-align: center;
   background-color: skyblue;
@@ -13,13 +14,16 @@ form,html{
 
 input{background-color: #FFF9}
 
-h1,button,input:focus{background-color: white;
+h1,button,input:hover,input:focus{
+  background-color: white;
   outline:none
 }
-h3{color:white;}
+h3{
+  color:white;
+  animation: bubble 500ms;
+}
 
 button,input{
-  height:2rem;
   font-weight: bold;
 }
 
@@ -30,9 +34,16 @@ h1,input,input::placeholder,button{
 h1,input,button{
   border-radius:0.4rem;
   border: none;
+  animation: bubble 500ms;
 }
 input{
   margin-bottom: 1rem;
   width: 100%;
   text-align: center;
+}
+
+@keyframes bubble{
+  0%{
+    transform:translateY(100vh);
+  }
 }
