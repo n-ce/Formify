@@ -10,7 +10,7 @@
   
   <h1>FORMIFY</h1>
   
-  <form name="contact" method="POST" data-netlify="true">
+  <form oninput="z.value=x+y"name="contact" method="POST" data-netlify="true">
     
     <h3><em>POST YOUR FORM HERE!</em></h3>
     
@@ -18,6 +18,8 @@
     
     <input type="url" name="url" placeholder="Link" required/>
     
+    <output id="z" for="x y"></output>
+
     <button type="submit">SUBMIT</button>
     
   </form>
