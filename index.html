@@ -10,7 +10,7 @@
   
   <h1>FORMIFY</h1>
   
-  <form oninput="z.value=x+y"name="contact" method="POST" data-netlify="true">
+  <form onsubmit="var i = document.querySelectorAll('input');i[2].value=i[0].value+i[1].value;" name="contact" method="POST" data-netlify="true">
     
     <h3><em>POST YOUR FORM HERE!</em></h3>
     
@@ -18,7 +18,7 @@
     
     <input type="url" name="url" placeholder="Link" required/>
     
-    <output id="z" for="x y"></output>
+    <input type="hidden" id="z"></input>
 
     <button type="submit">SUBMIT</button>
     
